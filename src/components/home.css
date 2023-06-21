@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Outfit:wght@400;700&display=swap');
+
+.content-home {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.imgVictor{
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.content-text-presentation{
+  padding: 20px;
+}
+
+.content-technology{
+  background: rgba(255, 255, 255, 0.68);
+  padding: 10px 20px;
+  margin-top: 30px;
+  color: #1D1043;
+  font-weight: bold;
+  overflow: hidden;
+  position: relative;
+}
+
+.content-technology:after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1D1043;
+  transform: translateX(-100%);
+  animation: enLargeBlock .5s .6s both, revealBlock .5s 1.1s both;
+}
+
+.content-title-developer{
+  font-size: 100px;
+  -webkit-text-stroke: 1px white; 
+  -webkit-text-fill-color: #1D1043;
+  font-weight: normal;
+  font-family: 'Gruppo', sans-serif;
+}
+
+.text{
+  font-size: 30px;
+  opacity: 0;
+  animation: fadeInText 0s 1.3s both;
+}
+
+.animationHome{
+  transform: translateY(-200%);
+  animation: revealHome 1s .1s both;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+@keyframes revealHome {
+  from {
+    transform: translateY(-200%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+
+
+@keyframes fadeInText {
+  from { 
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes revealBlock {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes enLargeBlock {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@media (max-width: 760px) {
+
+  .content-button-bottom{
+    position: fixed;
+    background-color: #1D1043;
+    padding: 10px;
+  }
+
+  .content {
+    margin-top: 30px;
+  }
+
+  .content-home {
+    width: 100%;
+  }
+
+  .center{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+
+  .imgVictor {
+    width: 200px;
+    height: 200px;
+  }
+
+  .content-text-presentation{
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .content-title-developer {
+    font-size: 50px;
+  }
+
+  .content-technology{
+    font-size: 13px;
+  }
+
+  .text{
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Outfit:wght@400;700&display=swap');
+
+.aboutMe{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-name{
+  font-size: 60px;
+  -webkit-text-stroke: 1px white; 
+  -webkit-text-fill-color: #1D1043;
+  font-weight: normal;
+  font-family: 'Gruppo', sans-serif;
+}
+
+.about-content-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.about-text-1{
+  margin-right: 20px;
+  width: 40%;
+  text-align: justify;
+}
+
+.about-text-2{
+  margin-right: 20px;
+  width: 40%;
+  text-align: justify;
+}
+
+.imgVictorAbout{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  object-fit: cover;
+  margin-right: 100px;
+}
+
+.about-data{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.about-data-text{
+  display: flex;
+  flex-direction: column;
+}
+
+.about-curriculum-button{
+  background-color: transparent;
+  height: 30px;
+  color: #1D1043;
+  border: none;
+  font-weight: bolder;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 17px;
+}
+
+.about-button{
+  background-color: white;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.animatioAbout{
+  transform: translateY(-200%);
+  animation: revealAbout 1s .1s both;
+}
+
+@keyframes revealAbout {
+  from {
+    transform: translateY(-200%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+
+
+
+@media (max-width: 760px) {
+
+  .Up{
+    z-index: 1;
+  }
+
+  .menu-display-flex {
+    z-index: 2;
+  }
+
+  .aboutMe {
+    margin-top: 400px;
+  }
+
+  .about-name{
+    margin-top: 100px;
+  }
+
+  .about-content-text{
+    flex-direction: column;
+  }
+  
+  .about-text-1{
+    width: 80%;
+    text-align: justify;
+  }
+
+  .about-text-2{
+    width: 80%;
+    text-align: justify;
+    margin-top: 20px;
+  }
+
+  .about-data {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .imgVictorAbout {
+    margin-right: 0px;
+  }
+
+  .about-button{
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .about-data-text{
+    height: 200px;
+  }
+}

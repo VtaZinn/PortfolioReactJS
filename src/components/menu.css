@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Outfit:wght@400;700&display=swap');
+
+.content-menu{
+  width: 70%;
+  height: 80vh;
+  display: flex;
+  align-items:flex-start;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Gruppo', sans-serif;
+}
+
+.animation{
+  transform: translateX(-200%);
+  animation: revealMenu 1s .1s both;
+}
+
+.content-button-menu {
+  background-color: transparent; 
+  border: none;
+  font-size: 50px;
+  color: white;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.number-button{
+  font-size: 50px;
+}
+
+.text-button{
+  font-size: 65px;
+}
+
+.content-data{
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  margin-right: 300px;
+}
+
+.data-email-cel{
+  font-size: 20px;
+  margin-right: 200px;
+}
+
+.data-curriculum{
+  font-size: 20px;
+  background-color: white;
+  color: #1D1043;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.data-nets{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.links {
+  text-decoration: none;
+  color: white;
+}
+
+
+@keyframes revealMenu {
+  from {
+    transform: translateX(-200%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@media (max-width: 760px) {
+
+  .content-menu{
+    width: 80%;
+  }
+
+  .content-button-menu {
+    text-align: left;
+  }
+  
+  .number-button {
+    font-size: 30px;
+  }
+  .text-button {
+    font-size: 35px;
+  }
+
+  .content-data{
+    width: 100%;
+    flex-direction: column;
+    margin-right: 0px;
+  }
+
+  .data-nets{
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .data-email-cel{
+    font-size: 20px;
+    margin-right: 0px;
+    text-align: center;
+  }
+
+  .data-curriculum {
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+  }
+}
