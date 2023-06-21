@@ -29,9 +29,10 @@ function Menu({onClick}){
         Celular: (11) 96439-4048
       </div>
       
+      <a href="https://docs.google.com/document/d/1ZM5G6btjlN4BM_--KrgKcaexvtaLRsQO/edit?usp=sharing&ouid=115139759949414186699&rtpof=true&sd=true" target="blank" className="textDecoration">
       <div className="data-curriculum">
         MEU CURRÍCULO
-      </div>
+      </div></a>
 
       <a href="https://www.linkedin.com/in/victor-augusto-vta/" target="_blank" className="links">
         <div class="data-nets">

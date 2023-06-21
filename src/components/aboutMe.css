@@ -64,6 +64,7 @@
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 17px;
+  cursor: pointer;
 }
 
 .about-button{
@@ -77,6 +78,10 @@
 .animatioAbout{
   transform: translateY(-200%);
   animation: revealAbout 1s .1s both;
+}
+
+.textDecoration{
+  text-decoration: none;
 }
 
 @keyframes revealAbout {

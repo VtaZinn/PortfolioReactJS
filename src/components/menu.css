@@ -50,6 +50,12 @@
   color: #1D1043;
   font-weight: bold;
   padding: 10px 20px;
+  cursor: pointer;
+  
+}
+
+.textDecoration {
+  text-decoration: none;
 }
 
 .data-nets{
