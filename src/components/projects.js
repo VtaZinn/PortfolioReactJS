@@ -31,7 +31,7 @@ function Projects(){
         <div className="data-GitHub">
           GitHub
         </div></a>
-        <a href="https://clonenetflix-vta.netlify.app/" target="blank">
+        <a href="https://clone-netflix.netlify.app/" target="blank">
           <div className="data-Site">
             SITE
           </div>
