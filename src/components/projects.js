@@ -4,7 +4,7 @@ import netflixImg from '../image/netflixImg.png';
 import buscadorImg from '../image/imgBuscador.jpg';
 import playlistImg from '../image/imgPlaylist.jpg';
 import imgCronometro from '../image/imgConometro.jpg';
-import imgPsicologa from '../image/imgPsicologa.jpg';
+import imgCalculadora from '../image/calculadora.png';
 
 
 function Projects(){
@@ -84,9 +84,9 @@ function Projects(){
 		</div>
     <div>
       <div className="data-slide data-img-slide-psicologa">
-          <h1> Psicologa Isabela Teixeira </h1>
-          <p> Landing Page desenvolvida com HTML,CSS e JavaScript <br/> para a cliente Isabela Teixeira. </p>
-          <a href="https://psicologaisabelateixeira.com.br/" target="blank">
+          <h1> Calculadora </h1>
+          <p> Calculadora desenvolida em JavaScript </p>
+          <a href="https://vta-calculadorajs.netlify.app/" target="blank">
             <div className="data-Site">
               SITE
             </div>
@@ -182,8 +182,8 @@ function Projects(){
 
   <div className="content-mobile-projects">
     <div className="img-mobile-projects">
-      <img src={imgPsicologa} className="cronometro-img-mobile"></img>
-      <h1> Isabela Teixeira </h1>
+      <img src={imgCalculadora} className="cronometro-img-mobile"></img>
+      <h1> Calculadora </h1>
       <p> Landing Page desenvolvida com HTML,CSS e JavaScript <br/> para a cliente Isabela Teixeira. </p>
       <a href="https://psicologaisabelateixeira.com.br/" target="blank" className="gitTextDecoration">
         <div className="data-Site">
