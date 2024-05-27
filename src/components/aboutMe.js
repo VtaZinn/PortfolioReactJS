@@ -28,7 +28,7 @@ function AboutMe(){
         <div className="about-data-text">
           São Paulo, Brasil <br/>
           E-mail: augustovta416@gmail.com
-          <a href="https://docs.google.com/document/d/1ZM5G6btjlN4BM_--KrgKcaexvtaLRsQO/edit?usp=sharing&ouid=115139759949414186699&rtpof=true&sd=true" className="textDecoration" target="blank">
+          <a href="https://drive.google.com/file/d/12OUB7msm8csBVydbVS-Wp2DR-hxg3qDF/view?usp=sharing" className="textDecoration" target="blank">
           <div className="about-button">
             <button className="about-curriculum-button"> MEU CURRÍCULO </button>
           </div></a>
